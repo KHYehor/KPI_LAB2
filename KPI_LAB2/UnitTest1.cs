@@ -73,9 +73,9 @@ namespace KPI_LAB2
             Assert.True(MBF2.GetFlag());
 
             // Test Getflag After Reseting all true to false
-            MBF2.ResetFlag(0);
-            MBF2.ResetFlag(1);
-            MBF2.ResetFlag(2);
+            MBF3.ResetFlag(0);
+            MBF3.ResetFlag(1);
+            MBF3.ResetFlag(2);
 
             /**
              * Test Fails
@@ -92,15 +92,17 @@ namespace KPI_LAB2
             Assert.Throws<ArgumentOutOfRangeException>(() => MBF1.SetFlag(12));
 
             // Test setting two false to true
-            MultipleBinaryFlag MBF2 = new MultipleBinaryFlag(2, false);
+            MultipleBinaryFlag MBF2 = new MultipleBinaryFlag(3, false);
             MBF2.SetFlag(0);
             MBF2.SetFlag(1);
+            MBF2.SetFlag(2);
             Assert.True(MBF2.GetFlag());
 
             // Test setting two true to true
-            MultipleBinaryFlag MBF3 = new MultipleBinaryFlag(2, true);
+            MultipleBinaryFlag MBF3 = new MultipleBinaryFlag(3, true);
             MBF2.SetFlag(0);
             MBF2.SetFlag(1);
+            MBF2.SetFlag(2);
             Assert.True(MBF2.GetFlag());
         }
 

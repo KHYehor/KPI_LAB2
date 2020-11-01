@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Applications/github/kpi/KPI_LAB2/KPI_LAB2/KPI_LAB2.csproj": {}
+    "/Applications/github/KPI_LAB2/KPI_LAB2/KPI_LAB2.csproj": {}
   },
   "projects": {
-    "/Applications/github/kpi/KPI_LAB2/KPI_LAB2/KPI_LAB2.csproj": {
+    "/Applications/github/KPI_LAB2/KPI_LAB2/KPI_LAB2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Applications/github/kpi/KPI_LAB2/KPI_LAB2/KPI_LAB2.csproj",
+        "projectUniqueName": "/Applications/github/KPI_LAB2/KPI_LAB2/KPI_LAB2.csproj",
         "projectName": "KPI_LAB2",
-        "projectPath": "/Applications/github/kpi/KPI_LAB2/KPI_LAB2/KPI_LAB2.csproj",
+        "projectPath": "/Applications/github/KPI_LAB2/KPI_LAB2/KPI_LAB2.csproj",
         "packagesPath": "/Users/egorhilchenko/.nuget/packages/",
-        "outputPath": "/Applications/github/kpi/KPI_LAB2/KPI_LAB2/obj/",
+        "outputPath": "/Applications/github/KPI_LAB2/KPI_LAB2/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
