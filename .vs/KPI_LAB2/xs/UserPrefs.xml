@@ -2,19 +2,21 @@
   <MonoDevelop.Ide.ItemProperties.KPI__LAB2 PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workbench ActiveDocument="KPI_LAB2/UnitTest1.cs">
     <Files>
-      <File FileName="KPI_LAB2/UnitTest1.cs" Line="44" Column="32" />
+      <File FileName="KPI_LAB2/UnitTest1.cs" Line="77" Column="52" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="KPI_LAB2" expanded="True">
             <Node name="KPI_LAB2" expanded="True">
-              <Node name="Dependencies" expanded="True">
-                <Node name="AssemblyDependencies" expanded="True" />
-              </Node>
               <Node name="UnitTest1.cs" selected="True" />
             </Node>
           </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="KPI_LAB2" expanded="True" selected="True" />
         </State>
       </Pad>
     </Pads>

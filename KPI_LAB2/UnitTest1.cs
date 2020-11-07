@@ -74,16 +74,11 @@ namespace KPI_LAB2
         [InlineData(false)]
         public void TestSetAndResest(bool isReset)
         {
-            if (isReset)
-            {
-                var exception = Record.Exception(() => _MBF.ResetFlag(SIZE + 1));
-                Assert.NotNull(exception);
-            }
-            else
-            {
-                var exception = Record.Exception(() => _MBF.SetFlag(SIZE + 1));
-                Assert.NotNull(exception);
-            }
+            var exception = Record.Exception(() => {
+                if (isReset) _MBF.ResetFlag(SIZE + 1);
+                else _MBF.SetFlag(SIZE + 1);
+            });
+            Assert.NotNull(exception);
         }
     }
 }
