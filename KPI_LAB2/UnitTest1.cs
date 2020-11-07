@@ -68,5 +68,22 @@ namespace KPI_LAB2
             _MBF.Dispose();
             Assert.Null(_MBF);
         }
+
+        [Theory]
+        [InlineData(true)]
+        [InlineData(false)]
+        public void TestSetAndResest(bool isReset)
+        {
+            if (isReset)
+            {
+                var exception = Record.Exception(() => _MBF.ResetFlag(SIZE + 1));
+                Assert.NotNull(exception);
+            }
+            else
+            {
+                var exception = Record.Exception(() => _MBF.SetFlag(SIZE + 1));
+                Assert.NotNull(exception);
+            }
+        }
     }
 }
