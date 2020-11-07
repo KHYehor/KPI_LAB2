@@ -1,28 +1,27 @@
 ﻿<Properties StartupConfiguration="{A81321EC-EA51-43C2-B6F9-1DF96D912176}|Default">
   <MonoDevelop.Ide.ItemProperties.KPI__LAB2 PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="KPI_LAB2/UnitTest1.cs">
+  <MonoDevelop.Ide.Workbench>
     <Files>
-      <File FileName="KPI_LAB2/UnitTest1.cs" Line="1" Column="1" />
+      <File FileName="KPI_LAB2/UnitTest1.cs" Line="15" Column="29" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="KPI_LAB2" expanded="True">
             <Node name="KPI_LAB2" expanded="True">
-              <Node name="UnitTest1.cs" selected="True" />
+              <Node name="Dependencies" expanded="True">
+                <Node name="AssemblyDependencies" expanded="True">
+                  <Node name="IIG.BinaryFlag" selected="True" />
+                </Node>
+              </Node>
             </Node>
           </Node>
-        </State>
-      </Pad>
-      <Pad Id="MonoDevelop.UnitTesting.TestPad">
-        <State name="__root__">
-          <Node name="KPI_LAB2" expanded="True" selected="True" />
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
