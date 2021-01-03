@@ -30,12 +30,15 @@ namespace KPI_LAB2
         }
 
         [Theory]
-        [InlineData(1, true)]
-        [InlineData(17179868704, true)]
-        [InlineData(145, false)]
-        public void TestConstructor(ulong size, bool isError)
+        [InlineData(1, true, true)]
+        [InlineData(1, false, true)]
+        [InlineData(17179868704, true, true)]
+        [InlineData(17179868704, false, true)]
+        [InlineData(145, true, false)]
+        [InlineData(145, false, false)]
+        public void TestConstructor(ulong size, bool initState, bool isError)
         {
-            var exceprion = Record.Exception(() => new MultipleBinaryFlag(size, true));
+            var exceprion = Record.Exception(() => new MultipleBinaryFlag(size, initState));
             if (isError) Assert.NotNull(exceprion);
             else Assert.Null(exceprion);
         }
